@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:statusBarColor">#FF00A3F1</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="primaryColor">#FF00A3F1</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="secondBackgroundColor">#EEEEEE</item>
+        <item name="thirdBackgroundColor">#FFFFFF</item>
+        <item name="textColor">#000000</item>
+        <item name="inverseColor">#000000</item>
+        <item name="stokeColor">#22000000</item>
+        <item name="shadeColor">#33000000</item>
+        <item name="android:colorEdgeEffect">#00FFFFFF</item>
+        <!-- <item name="android:fontScale">1.0</item> -->
+    </style>
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="splash" parent="AppTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+    <style name="DarkAppTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:statusBarColor">#FF00ACFF</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="primaryColor">#FF00ACFF</item>
+        <item name="backgroundColor">#1B1B1B</item>
+        <item name="secondBackgroundColor">#252525</item>
+        <item name="thirdBackgroundColor">#1B1B1B</item>
+        <item name="textColor">#FFFFFF</item>
+        <item name="inverseColor">#FFFFFF</item>
+        <item name="stokeColor">#22FFFFFF</item>
+        <item name="shadeColor">#33FFFFFF</item>
+    </style>
+    <style name="splashDark" parent="DarkAppTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="ApppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.Translucent" parent="@style/ApppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBlurBehindEnabled" tools:targetApi="31">true</item>
+        <item name="android:windowBlurBehindRadius" tools:targetApi="31">20dp</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="MyTransparentTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBlurBehindEnabled" tools:targetApi="31">true</item>
+        <item name="android:windowBlurBehindRadius" tools:targetApi="31">20dp</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="MyDarkTransparentTheme" parent="DarkAppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBlurBehindEnabled" tools:targetApi="31">true</item>
+        <item name="android:windowBlurBehindRadius" tools:targetApi="31">20dp</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">false</item>
+        <!-- <item name="android:windowLightStatusBar" tools:targetApi="23">false</item> -->
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="MyMainActivityTheme" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- <item name="android:windowLayoutNoLimit">true</item> -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="MyDarkMainActivityTheme" parent="DarkAppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- <item name="android:windowLayoutNoLimit">true</item> -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    
+    <style name="MyTransparentInverseTheme" parent="MyTransparentTheme">
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="MyDarkTransparentInverseTheme" parent="MyDarkTransparentTheme">
+        <item name="android:windowLightNavigationBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

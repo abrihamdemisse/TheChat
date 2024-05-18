@@ -1,0 +1,115 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginBottom="10dp"
+			android:padding="4dp"
+			android:orientation="vertical"
+			android:background="@drawable/backk">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:focusable="false"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/ickn"
+					android:scaleType="fitCenter" />
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingRight="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview1"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="T H E C H A T"
+						android:textSize="30sp"
+						android:textStyle="bold"
+						android:textColor="?attr/textColor" />
+					<TextView
+						android:id="@+id/textview2"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dp"
+						android:paddingRight="8dp"
+						android:paddingBottom="8dp"
+						android:text="Meet new peoples ;)"
+						android:textSize="11sp"
+						android:alpha="0.5"
+						android:textColor="?attr/textColor" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview3"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Random anonymous chat with someone you might be best friends after the chat.\n\nOnly your last message is stored encrypted in database temporarily, when the chat is closed all data in the chat will be deleted including files.\n\nNo one knows who you are, the app use anonymous login. If you want to reset and have new ID just log out and start again.\n\nHave fun ;)"
+					android:textSize="14sp"
+					android:textColor="?attr/textColor" />
+				<LinearLayout
+					android:id="@+id/linear7"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/logOut"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="5dp"
+						android:gravity="center_horizontal|center_vertical"
+						android:orientation="vertical"
+						android:background="@drawable/editText1">
+						<TextView
+							android:id="@+id/textview4"
+							android:focusable="false"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Log out"
+							android:textSize="16sp"
+							android:textColor="?attr/textColor" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

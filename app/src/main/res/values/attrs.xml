@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <declare-styleable name="Portal">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="secondBackgroundColor" format="color"/>
+        <attr name="thirdBackgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="inverseColor" format="color"/>
+        <attr name="stokeColor" format="color"/>
+        <attr name="shadeColor" format="color"/>
+        <attr name="primaryColor" format="color"/>
+        
+        <attr name="gradientTopColor" format="color"/>
+        <attr name="gradientBottomColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MaxLinearLayout">
+        <attr name="maxWidth" format="dimension"/>
+    </declare-styleable>
+    
+</resources>
