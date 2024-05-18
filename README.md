@@ -21,19 +21,18 @@ No data is stored in the database other that the last message and files sent to 
 Here are some of the most interesting features this project have : 
 
 ## Features
-###• Professional implementation
-###• Modern unique UI & UX, logo
-###• Anonymous random chat
-###• Admob Ad implmented
-###• Encrypted messaging
-###• Text, file messages
-###• Light, Dark mode
-###• Anonymous login
-###• Ready to publish
-###• Theme support
-###• ID search 
 
-By Useup Developer.
+* Professional implementation
+* Modern unique UI & UX, logo
+* Anonymous random chat
+* Admob Ad implmented
+* Encrypted messaging
+* Text, file messages
+* Light, Dark mode
+* Anonymous login
+* Ready to publish
+* Theme support
+* ID search
 
 ## Screenshots
 
